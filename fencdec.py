@@ -288,14 +288,14 @@ while True:
                 decryptFiles(dir, build_key(user_pass))
         else:
           system('clear')
-          print (RED+"\t\tyou must input a number betwen 1 and 3.\r\n"+ENDC)
+          print (RED+"\t\tyou must input a number betwen 1 and 5.\r\n"+ENDC)
           foo = input(YELLOW+"\t\tPress any key to show the menu\n"+ENDC)
           continue
       except KillException as ex:
         sys.stdout.flush()
   else:
     system('clear')
-    print (RED+"\t\tyou must input a number betwen 1 and 3.\r\n"+ENDC)
+    print (RED+"\t\tyou must input a number betwen 1 and 5.\r\n"+ENDC)
     foo = input(YELLOW+"\t\tPress any key to show the menu\n"+ENDC)
     continue
 
